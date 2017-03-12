@@ -54,6 +54,16 @@ namespace DinerMAX_3000_Console
             Console.ReadLine();
            // 16  we cannot assign the custom value to toatl which is due to it sproperties behaviour  Console.WriteLine(HungeryMenOrder.Total=90);
 
+            // 18 now test our prperty of negative avlue but program crases so to avoid impliment try catch finnally.
+
+            try
+            {
+               outsiders.AddMenuItem("free drink", -12, "testing allowd or not");
+            }
+            catch(Exception thowException)
+            {
+                Console.WriteLine(thowException.Message);
+            }
 
         }
     }
