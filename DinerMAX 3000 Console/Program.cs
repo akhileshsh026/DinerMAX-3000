@@ -41,12 +41,19 @@ namespace DinerMAX_3000_Console
                 HungeryMenOrder.items.Add(CurrentItems); 
             }
 
+            Console.WriteLine("1 The Total price is :{0}", HungeryMenOrder.Total);
+
             // 13 or we can use foreach loop also
 
             foreach (MenuItem item in outsiders.items)
             {
                 HungeryMenOrder.items.Add(item);
             }
+            // 15 
+            Console.WriteLine("2 The Total price is :{0}",HungeryMenOrder.Total);
+            Console.ReadLine();
+           // 16  we cannot assign the custom value to toatl which is due to it sproperties behaviour  Console.WriteLine(HungeryMenOrder.Total=90);
+
 
         }
     }
