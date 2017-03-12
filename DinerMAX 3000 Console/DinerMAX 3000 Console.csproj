@@ -61,6 +61,7 @@
     <Compile Include="FoodMenu.cs" />
     <Compile Include="Menu.cs" />
     <Compile Include="MenuItem.cs" />
+    <Compile Include="Orders.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

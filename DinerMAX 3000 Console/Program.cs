@@ -30,6 +30,24 @@ namespace DinerMAX_3000_Console
             //salmon.Description = " freash chease";
             //salmon.Price = 123;
             //SummerMenu.items.Add(salmon);
+
+
+            //12 instance of order object
+
+            Orders HungeryMenOrder = new Orders();
+            for (int x = 0; x < SummerMenu.items.Count-1; x++)
+            {
+                MenuItem CurrentItems = SummerMenu.items[x];
+                HungeryMenOrder.items.Add(CurrentItems); 
+            }
+
+            // 13 or we can use foreach loop also
+
+            foreach (MenuItem item in outsiders.items)
+            {
+                HungeryMenOrder.items.Add(item);
+            }
+
         }
     }
 }

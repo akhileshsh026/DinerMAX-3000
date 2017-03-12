@@ -22,9 +22,9 @@ namespace DinerMAX_3000_Console
             public void AddMenuItem(String Title , double Price , String Description)
         {
             MenuItem item = new MenuItem();
-            item.title = "Title ";
-            item.Description = "Description";
-            item.Price = 234.56;
+            item.title = Title;
+            item.Description = Description;
+            item.Price = Price;
             items.Add(item);
         }
 
