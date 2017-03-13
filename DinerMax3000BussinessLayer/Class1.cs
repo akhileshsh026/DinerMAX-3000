@@ -8,5 +8,6 @@ namespace DinerMax3000BussinessLayer
 {
     public class Class1
     {
+
     }
 }
