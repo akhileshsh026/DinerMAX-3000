@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DinerMax3000.Bussiness.DsDinerMAx3000TableAdapters;
 
 namespace DinerMAX_3000.Bussiness
 {
@@ -14,6 +15,27 @@ namespace DinerMAX_3000.Bussiness
         {
             items = new List<MenuItem>();
         }
+
+        //27 genrating after creating the dataaset
+
+        public List<Menu>  GetAllMenus()
+        {
+            MenuTableAdapter tblMenu = new MenuTableAdapter();
+            MenuItemTableAdapter tblMenuItem = new MenuItemTableAdapter();
+            var dtMenu = tblMenu.GetData();
+
+            List<Menu> allMenus = new List<Menu>();
+            foreach (var MenuRow in dtMenu.Rows)
+            {
+                Menu CurrentMenu = new Menu();
+                CurrentMenu.Name= MenuRow.
+            }
+            { // अधुरा है
+
+            }
+        }
+
+
 
         // 4 modified in the main f(x) creating the obj .
 
