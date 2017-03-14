@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DinerMAX_3000_Console
+namespace DinerMAX_3000.Bussiness
 {
     // Step 7 created food classs
-    class FoodMenu : Menu
+    public class FoodMenu : Menu
     {
         public String HospitalDirections;
     }

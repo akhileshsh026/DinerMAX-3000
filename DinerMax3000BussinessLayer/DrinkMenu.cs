@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DinerMAX_3000_Console
+namespace DinerMAX_3000.Bussiness
 {       // 9 created new menu
-    class DrinkMenu : Menu
+   public class DrinkMenu : Menu
     {
         public String Desclamer;
     }

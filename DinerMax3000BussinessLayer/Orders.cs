@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DinerMAX_3000_Console
+namespace DinerMAX_3000.Bussiness
 {   // 11 how to interate the objects 
     public class Orders
     {
